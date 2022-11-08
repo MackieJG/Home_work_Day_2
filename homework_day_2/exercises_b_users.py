@@ -82,5 +82,6 @@ print(users["Erik"]["home_town"])
 #users["Erik"]["pets"]["species"] = "dog"
 
  # 10. Add another person to the users dictionary
-users.update("Josh")
+users["Josh"] = {}
+
 print(users)

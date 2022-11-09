@@ -13,13 +13,13 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 
 stops.append("Edinburgh Waverley") # Adds "Edinburgh Waverley"
 stops.insert(1, "Glasgow Queen St") # Inserts "Glasgow Queen St first in the list"
-stops.insert(4, "Polmont")
+stops.insert(4, "Polmont") 
 index = stops.index("Linlithgow")
 print(index)
 stops.remove("Livingston")
 stops.pop(2)
 print(len(stops))
-print(sorted(stops))
+stops.sort()
 stops.reverse() # Why can't I use print(stops.reverse())
 print(stops) 
 for stop in stops:
